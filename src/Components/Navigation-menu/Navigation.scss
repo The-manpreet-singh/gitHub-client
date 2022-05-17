@@ -1,0 +1,25 @@
+$list-style-type-main: none;
+$margin-main: 0;
+$padding-main: 20px;
+$overflow-main: hidden;
+$background-color-main: #333;
+
+.Main {
+  list-style-type: $list-style-type-main;
+  margin: $margin-main;
+  padding: $padding-main;
+  overflow: $overflow-main;
+  background-color: $background-color-main;
+}
+
+.nav {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid #bbb;
+}
+
+.nav:hover {
+  background-color: #111;
+}

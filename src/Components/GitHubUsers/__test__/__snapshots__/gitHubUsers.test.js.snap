@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="User"
+  data-testid="gitHub-1"
+>
+  <div
+    className="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+  >
+    <select
+      defaultValue="Sort"
+      onChange={[Function]}
+    >
+      <option
+        disabled={true}
+        value="Sort"
+      >
+        Sort By
+      </option>
+      <option
+        value="followers"
+      >
+        Followers
+      </option>
+      <option
+        value="public_repos"
+      >
+        Repos
+      </option>
+    </select>
+    <div
+      className="infinite-scroll-component__outerdiv"
+      style={Object {}}
+    >
+      <div
+        className="infinite-scroll-component "
+        style={
+          Object {
+            "WebkitOverflowScrolling": "touch",
+            "height": "auto",
+            "overflow": "auto",
+          }
+        }
+      >
+        <div
+          className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 dataStyle css-mhc70k-MuiGrid-root"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

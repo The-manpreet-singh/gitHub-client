@@ -1,0 +1,28 @@
+$margin-user: 20px;
+$margin-pagination: 50px 0px;
+$display: flex;
+$justify-content: center;
+$padding-card: 5px;
+
+.User {
+  margin: $margin-user;
+}
+.dataStyle{
+  justify-content: center;
+}
+/* .Data {
+  padding: 5px;
+  margin: 10px;
+} */
+.Pagination {
+  margin: $margin-pagination;
+}
+.Card {
+  display: $display;
+  justify-content: $justify-content;
+  padding: $padding-card;
+}
+.Avatar {
+  justify-content: $justify-content;
+  display: $display;
+}

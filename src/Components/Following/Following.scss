@@ -1,0 +1,29 @@
+$myColor: red;
+$text-align: center;
+$display: flex;
+$justify-content: center;
+$padding-search: 20px 0;
+$padding-card: 5px;
+
+.Home {
+  text-align: $text-align;
+}
+
+.Data{
+  margin: 10px;
+}
+
+.search {
+  display: $display;
+  justify-content: $justify-content;
+  padding: $padding-search;
+}
+.card {
+  display: $display;
+  // justify-content: $justify-content;
+  padding: $padding-card;
+}
+.Avatar {
+  justify-content: $justify-content;
+  display: $display;
+}
